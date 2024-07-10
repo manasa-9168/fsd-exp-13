@@ -1,0 +1,12 @@
+create folder
+python --version
+py-m pip install virtualenv
+py -m venv venv
+.\venv\scripts\activate
+pip install Django
+py -m django --version
+django-admin startprojext exp13
+cd exp13
+code .
+  copy all folders and in cmd prmpt
+py manage.py runserver
